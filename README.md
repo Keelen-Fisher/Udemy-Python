@@ -9,3 +9,5 @@
 4. [Day Four](Day-4/Day4Notes.md)
 
 5. [Day Five](Day-5/Day5Notes.md)
+
+6. [Day Six](Day-6/Day6Notes.md)
