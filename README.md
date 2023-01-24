@@ -15,3 +15,7 @@
 5. [Day Five](Day-5/Day5Notes.md)
 
 6. [Day Six](Day-6/Day6Notes.md)
+
+7. [Day Seven](Day-7/Day7Notes.md)
+
+8. [Day Eight](Day-8/Day8Notes.py)
