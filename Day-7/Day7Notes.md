@@ -8,7 +8,9 @@
 
 ![Alt text](../assets/Hangman%20Project%20UML.png)
 
-## [Hangman Code Walkthrough: Challenges 1-5:](Day7.py)
+## [Hangman Code Walkthrough: Challenges 1-4:](Day7.py)
+
+## [Hangman Project Code:](Hangman.py)
 
 ### For loops with list
 
@@ -49,3 +51,7 @@
             ## print the numbers from 0 through 99
                 for i in range(100):
                   print(i)
+
+### Import modules: A reminder
+
+- [Reminder on how to import modules/files](https://www.askpython.com/python/python-import-statement)

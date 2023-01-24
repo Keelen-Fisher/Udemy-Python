@@ -1,4 +1,4 @@
-# Hangman Walkthrough: Challenges 1-5:
+# Hangman Walkthrough: Challenges 1-4:
 
 # Code Challenge 1: 
 
