@@ -1,5 +1,9 @@
 # Udemy-Python
 
+## IMPORTANT UDEMY NOTES
+
+- You can install "Thonny" to run your Python code step by step to see how your code works as it runs through for loops, while loops, functions, callback functions, etc.
+
 1. [Day One](Day-1/Day1Notes.md)
 
 2. [Day Two](Day-2/Day2Notes.md)
