@@ -19,3 +19,5 @@
 7. [Day Seven](Day-7/Day7Notes.md)
 
 8. [Day Eight](Day-8/Day8Notes.md)
+
+9. [Day Nine](Day-9/Day9Notes.md)
