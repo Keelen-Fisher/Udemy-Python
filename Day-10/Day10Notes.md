@@ -2,7 +2,7 @@
 
 ## [Day 10 Code](Day10.py)
 
-## [Calculator Project](Day10Notes.md)
+## [Calculator Project](calculator.py)
 
 ## Functions with Outputs
 
