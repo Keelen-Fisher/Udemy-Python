@@ -1,5 +1,9 @@
 # Day 10
 
+## [Day 10 Code](Day10.py)
+
+## [Calculator Project](Day10Notes.md)
+
 ## Functions with Outputs
 
         def my_function():
