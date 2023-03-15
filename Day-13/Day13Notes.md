@@ -28,4 +28,21 @@
 
   - In your code, always try to describe it to determine whether or not a line of code is true or false.
 
-### Step 2: 
+### Step 2: Reproduce the code
+
+- Sometimes, you have code that works for only certain conditions, like a imported random type of code for example. You can run it for a multiple amount of times and it will produce a result, and then it suddenly gives you an error. When this happens, the goal is to reproduce the code to find the exact moment and reason why it happens.
+
+- Example:
+
+                from random import randint
+                dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+                dice_num = randint(1, 6)
+                print(dice_imgs[dice_num])
+
+- After running the code multiple times, an error shows as: **IndexError: list index is out of range**
+
+- When you first see it, try to run it again to find which number causes the problem. We see that the third line of code produces the result.
+
+- When we change it to ***dice_num = 6***, that is when the error occurs, so there is an issue with the index of 6, this most likely means that the index of 6 does not exist.
+
+- so if we change that line of code to ***dice_num = randint(0, 5)***, then no errors should occur.
