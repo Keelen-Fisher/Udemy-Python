@@ -86,3 +86,37 @@
 - Lastly, the code will run the correct line of print statement, but it will not show the number because of the lack of the **f** in front of the quote.
 
                 print(f"You can drive at age {age}.")
+
+### Step 5: Print is Your Friend
+
+- Example:
+
+          pages = 0
+          word_per_page = 0
+          pages = int(input("Number of pages: "))
+          word_per_page == int(input("Number of words per page: "))
+          total_words = pages * word_per_page
+          print(total_words)
+
+- Let's add in some print statements!!
+
+          pages = 0
+          word_per_page = 0
+          pages = int(input("Number of pages: "))
+          word_per_page == int(input("Number of words per page: "))
+          total_words = pages * word_per_page
+          print(f"Pages = {pages}")
+          print(f"word_per_page = {word_per_page}")
+          print(total_words)
+
+- using print statements can help you to narrow down the problem in a somewhat large block of code. When you run the code, you will find that the number of pages is passed through the designated variable but not with words per page, that returns 0. Now we need to focus on the words-per-page variable, and we can see that there are 2 equal signs, there only should be one:
+
+          pages = 0
+          word_per_page = 0
+          pages = int(input("Number of pages: "))
+          word_per_page = int(input("Number of words per page: "))
+          total_words = pages * word_per_page
+          print(f"Pages = {pages}")
+          print(f"word_per_page = {word_per_page}")
+          print(total_words)
+
