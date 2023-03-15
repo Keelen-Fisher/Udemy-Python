@@ -49,7 +49,7 @@
 
 ### Step 3: "Play Computer"
 
-- Example: 
+- Example:
 
       year = int(input("What's your year of birth?"))
       if year > 1980 and year < 1994:
@@ -125,3 +125,13 @@
 - You can use different debuggers across the internet, [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) is one of them.
 
 - Break point: Tells the computer to stop what it is doing, and then examine what all the variables and all of the functions are doing.
+
+### Final Tips
+
+- Take a break.
+
+- Ask a friend.
+
+- Run your code often, do not wait until you have built a large block of code then run, because then you will find yourself in a situation where you don't know the root cause of the problem.
+
+- Stack Overflow.
