@@ -120,3 +120,8 @@
           print(f"word_per_page = {word_per_page}")
           print(total_words)
 
+### Step 6: Use a Debugger
+
+- You can use different debuggers across the internet, [Python Tutor](https://pythontutor.com/visualize.html#mode=edit) is one of them.
+
+- Break point: Tells the computer to stop what it is doing, and then examine what all the variables and all of the functions are doing.
