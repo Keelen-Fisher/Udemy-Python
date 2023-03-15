@@ -27,3 +27,5 @@
 11. [Day Eleven](Day-11/Day11Notes.md)
 
 12. [Day Twelve](Day-12/Day12Notes.md)
+
+13. [Day Thirteen](Day-13/Day13Notes.md)
