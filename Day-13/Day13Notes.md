@@ -61,4 +61,28 @@
 
 - Instead, on line 4 you should put ***elif year >= 1994***.
 
+### Step 4: Fix the errors
 
+- Example:
+
+            age = input("How old are you?")
+            if age > 18:
+            print("You can drive at age {age}.")
+
+- There are some common errors, such as needing to indent your line of code after you've built your if conditional statement.
+
+             age = input("How old are you?")
+             if age > 18:
+              print("You can drive at age {age}.")
+
+- However that is not all. you still have to keep in mind another error, when you run this code, you will find that the code will run an error as: **TypeError: '>' not supported between instances of 'str' and 'int'.**
+
+- This is due to the fact the code reads the first line as a string, not an integer, add in the int method on line 1:
+
+              age = int(input("How old are you?"))
+              if age > 18:
+                print("You can drive at age {age}.")
+
+- Lastly, the code will run the correct line of print statement, but it will not show the number because of the lack of the **f** in front of the quote.
+
+                print(f"You can drive at age {age}.")
