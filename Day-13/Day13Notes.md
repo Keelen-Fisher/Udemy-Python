@@ -46,3 +46,19 @@
 - When we change it to ***dice_num = 6***, that is when the error occurs, so there is an issue with the index of 6, this most likely means that the index of 6 does not exist.
 
 - so if we change that line of code to ***dice_num = randint(0, 5)***, then no errors should occur.
+
+### Step 3: "Play Computer"
+
+- Example: 
+
+      year = int(input("What's your year of birth?"))
+      if year > 1980 and year < 1994:
+        print("You are a millenial.")
+      elif year > 1994:
+        print("You are a Gen Z.")
+
+- This is where you play computer. mentally run through each line of code and solve the problem using different scenarios. You will find that there is no catch in the code if you enter in 1994 as your year of birth because you do not have a conditional statement/operator that checks for that integer.
+
+- Instead, on line 4 you should put ***elif year >= 1994***.
+
+
