@@ -92,3 +92,7 @@ E.g. report before purchasing latte:
 latte was their choice of drink.
 
 ### [Code for Project](day15.py)
+
+### Additional notes
+
+- This day introduces PyCharm, which is another IDE, similar to VSCode, which is what I am using. If PyCharm is being used to create this project and further projects, [PyCharm Keyboard Shortcuts](https://www.jetbrains.com/help/pycharm/mastering-keyboard-shortcuts.html) may be beneficial when writing code.
